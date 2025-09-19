@@ -1,0 +1,68 @@
+# Arquivos de credenciais
+*.json
+pulso.json
+boletim.json
+credentials.json
+service-account.json
+
+# Arquivos de configuração sensíveis
+*.env
+.env.*
+config.ini
+secrets.txt
+
+# Dados CSV (podem conter informações sensíveis)
+*.csv
+dados/
+exports/
+
+# Logs
+*.log
+logs/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
