@@ -1,0 +1,17 @@
+{
+  "name": "rpa-leroy-merlin",
+  "version": "1.0.0",
+  "description": "RPA automation project for Leroy Merlin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ryanditko/rpa-leroy-merlin.git",
+    "branch": "main"
+  },
+  "scripts": {
+    "start": "echo 'Starting RPA Leroy Merlin project from main branch'"
+  },
+  "keywords": ["rpa", "automation", "leroy-merlin"],
+  "author": "Ryanditko",
+  "license": "MIT"
+}
