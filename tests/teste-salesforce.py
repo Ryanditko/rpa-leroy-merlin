@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Teste Específico: Salesforce - Processar dados para planilha Salesforce
-URL: https://docs.google.com/spreadsheets/d/1vrOSg1zIYYinSt5A4FNK2403IpecH_06aKSTnMhmCl0
+URL: https://docs.google.com/spreadsheets/d/1uBsjcNt2ZTvRlU7hkiIGLxLEGEFLYB-BEg8dm9jsM_0 (Planilha oficial)
 """
 import sys
 import os
@@ -35,8 +35,8 @@ def main():
     print("=" * 60)
     
     try:
-        # ID da planilha Salesforce
-        id_planilha_salesforce = "1vrOSg1zIYYinSt5A4FNK2403IpecH_06aKSTnMhmCl0"
+        # ID da planilha Salesforce oficial
+        id_planilha_salesforce = "1uBsjcNt2ZTvRlU7hkiIGLxLEGEFLYB-BEg8dm9jsM_0"
         
         print(f"📊 Planilha Salesforce: {id_planilha_salesforce}")
         print("🔧 Modo: COMPLEMENTAR (preserva dados existentes)")

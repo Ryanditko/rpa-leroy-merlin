@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Teste Específico: Genesys - Processar dados para planilha Genesys
-ID: 1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY
+ID: 14vJpMHAXOBnWOLLqYyB1yDazjU0yMbSuCWKyuIhzPLc (Planilha oficial)
 """
 import sys
 import os
@@ -36,8 +36,8 @@ def main():
     print("=" * 60)
     
     try:
-        # ID da planilha Genesys (padrão já configurado na classe)
-        id_planilha_genesys = "1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY"
+        # ID da planilha Genesys oficial
+        id_planilha_genesys = "14vJpMHAXOBnWOLLqYyB1yDazjU0yMbSuCWKyuIhzPLc"
         
         print(f"📊 Planilha Genesys: {id_planilha_genesys}")
         print("🔧 Modo: COMPLEMENTAR (preserva dados existentes)")

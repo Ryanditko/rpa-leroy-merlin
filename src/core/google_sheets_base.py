@@ -15,7 +15,14 @@ from typing import Optional, List
 class GoogleSheetsBase:
     """Classe base para operações com Google Sheets com detecção inteligente de arquivos"""
     
-    def __init__(self, caminho_credenciais: str = "boletim.json", id_planilha: str = "1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY"):
+    def __init__(self, caminho_credenciais: str = "boletim.json", id_planilha: str = ""):
+        """
+        Inicializa a classe GoogleSheetsBase
+        
+        Args:
+            caminho_credenciais: Caminho para o arquivo de credenciais JSON
+            id_planilha: ID da planilha (será definido pelo sistema principal)
+        """
         self.CAMINHO_CREDENCIAIS = caminho_credenciais
         self.ID_PLANILHA = id_planilha
         self._client = None

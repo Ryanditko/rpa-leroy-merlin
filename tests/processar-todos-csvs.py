@@ -38,8 +38,8 @@ def main():
     print("=" * 70)
     
     try:
-        # ID da planilha principal
-        id_planilha = "1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY"
+        # ID da planilha oficial Genesys
+        id_planilha = "14vJpMHAXOBnWOLLqYyB1yDazjU0yMbSuCWKyuIhzPLc"
         
         print(f"📊 Planilha: {id_planilha}")
         print("🔧 Modo: COMPLEMENTAR (preserva dados existentes)")

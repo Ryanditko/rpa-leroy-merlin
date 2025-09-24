@@ -30,7 +30,7 @@ from core.google_sheets_base import GoogleSheetsBase
 # Configurações das planilhas
 PLANILHAS_CONFIG = {
     "genesys": {
-        "id": "1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY",
+        "id": "14vJpMHAXOBnWOLLqYyB1yDazjU0yMbSuCWKyuIhzPLc",  # Planilha oficial Genesys
         "nome": "📊 GENESYS",
         "deteccao": {
             # Função para detectar tipo do arquivo Genesys
@@ -42,7 +42,7 @@ PLANILHAS_CONFIG = {
         }
     },
     "salesforce": {
-        "id": "1vrOSg1zIYYinSt5A4FNK2403IpecH_06aKSTnMhmCl0",
+        "id": "1uBsjcNt2ZTvRlU7hkiIGLxLEGEFLYB-BEg8dm9jsM_0",  # Planilha oficial Salesforce
         "nome": "💼 SALESFORCE", 
         "deteccao": {
             # Função para detectar tipo do arquivo Salesforce

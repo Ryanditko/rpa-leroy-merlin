@@ -747,11 +747,20 @@ class AutomacaoLeroyMerlinGUI:
         except Exception as e:
             self.log_mensagem(f"❌ Erro ao abrir pasta: {e}", 'erro')
     
+    def abrir_url(self, url):
+        """Abre URL no navegador padrão"""
+        import webbrowser
+        try:
+            webbrowser.open(url)
+            self.log_mensagem(f"🌐 Abrindo planilha no navegador...", 'info')
+        except Exception as e:
+            self.log_mensagem(f"❌ Erro ao abrir link: {e}", 'erro')
+    
     def abrir_planilha(self, tipo):
-        """Abre planilha no navegador (método mantido para compatibilidade)"""
+        """Abre planilha oficial no navegador"""
         urls = {
-            'genesys': 'https://docs.google.com/spreadsheets/d/1cHbKXMjJgnR_M3X2uGtDT3kPHTrlBd_g4kqxhrr6MOY',
-            'salesforce': 'https://docs.google.com/spreadsheets/d/1vrOSg1zIYYinSt5A4FNK2403IpecH_06aKSTnMhmCl0'
+            'genesys': 'https://docs.google.com/spreadsheets/d/14vJpMHAXOBnWOLLqYyB1yDazjU0yMbSuCWKyuIhzPLc',      # Planilha oficial Genesys
+            'salesforce': 'https://docs.google.com/spreadsheets/d/1uBsjcNt2ZTvRlU7hkiIGLxLEGEFLYB-BEg8dm9jsM_0'  # Planilha oficial Salesforce
         }
         
         if tipo in urls:
