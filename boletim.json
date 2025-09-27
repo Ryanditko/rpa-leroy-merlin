@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sublime-shift-472919-f0",
+  "private_key_id": "aa38c478db5307bb6c916c393826e79a65679f72",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCidU5hHbOcgFd7\n83o8r+duOj9HRsvy1KIA64nPqGqVTGsUoqflgC2HaU4p7c+9CmTNgGZaEKwEqaoa\nbg8o1E7qSbjVtMmq1S7jd93TBzWWR2MTK7KShYIa60vwI35q0eTKZUlP6fv6ZFgF\nOg5pr4xCbOkhM/Ig07l5dlsy+i5vfvKPJR/LpQwZTXbz04X3NOU81DGhqqW2TU7b\nP0SbXZ/vuANuiNbaxL1zELviSb/MRy4MG3nLVDjtGmmKz0RGYI1VgypvjcJzab/3\n5iKFu252+7ap3lJyLbiTKvlyQpDv1pmvSnB07GN6yeupH+7umvdhZ1yzPZT+bZSX\nBfCrQGePAgMBAAECggEAEoKBEqmarEsnLJU6KS31lWaHjSxw0lMNvkMX6ZQLyMTz\nMl+x94EaLuJ9qGNTFvvXLl7hyoM5xjI6klZV3dYKw8DwkVDO5Wrys7IVkRSyM1Qg\n4q9I4k7Z2w1SEqNIpQ0TH0hZCQTk08uZB8dsmvgIaA0WptTPUpQs/rzQeUduAP/s\nGzSIe69abNqnilL0l3Aqty816u7TclFwRNz1kZcCLcOvo4r+6qHjAmtUA83Cq2Od\neR2+HclfJgvlAQwVJfo6MN3X6jK3qKLF/PKub5zZR/jv6gdreeclWZXNK41YtuEt\nGDiFZ6pFerXA9x7upOlVDMfv9lbChF/YiAiXTxpkkQKBgQDg69S0lyZcGCy0c7Fg\nR1N+oN90IbhisCu05W910wjAEfqBnG5QN7udEq1P876uJBsnHoobaEGHDUb3cOqY\nojR0IjjybhVIXgdtSldgXuUPKfIIQxjAxppKLbWa/tGX3KVciWq20T1mDRPjeLWC\n+Kfgw/I8lgRP5dbpez6qqQtYiQKBgQC45/ajoRze93UESuhHRaRepKqu0jy2y/R2\nmlVuxJvrUysQxyUsLHQSNOeJuGHGS4+GRMeHnNwDhmCF/OuODU8YySUYs+6xk9f3\nAviL1eH2xksiNu8R4crKoUd4h3IPl4h1bdC4tROks6SO5V8DXXROh1g7kPoFQRma\nWQF57OSJVwKBgQCkZ71yw4kmiAUlYeullH1TcgPjv0In4N4RvCNc3ITo4Dtbwhxg\nRly804obhu86Guo+DfSlU++R6AKXm9He/7GXsewuSIkF/LUxDcYQi0yjaOWhZGoT\nfxgIYKD+SoSpnH7CxS9bslZO4gBHpVQIB/muMYw+/Ojp/fa5c3y7AhVpAQKBgQCH\nK6OEiNHXOSUE51GYUJPRUCUqOayCoORsE3Sizf2BcUIJONu2yCRt7tjYN77aPACG\n0h7ex0+bEA/dwz/bj2UkJF8HCPpUPFTjUPurFcbjJKBmOaxY8SvTJ0VdGf7K4Saz\nWXz8mfrrKxwADjN//UB5670XhmsPjkCOMcS/geqrbwKBgQCJStAHYQX/dT5GYCLb\n5IKabbOCA2Xw5pdsgl2kSiuLdM0fqfTSWsVlLCVisuSxrDNWnAi9rD0FsIntFsq1\nXXCtITlxj4cK8Cy/AsXPFBFtaSJoJbm/td0QG8J2+WpnntVJRbrRlWLbU3jupktN\nQKc0CK1XkecMnji1aUcIDUMyeA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "boletim@sublime-shift-472919-f0.iam.gserviceaccount.com",
+  "client_id": "113459799663554183856",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/boletim%40sublime-shift-472919-f0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
